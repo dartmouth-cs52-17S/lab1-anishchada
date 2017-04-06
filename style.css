@@ -7,7 +7,6 @@ body {
 
 ul {
   list-style-type: none;
-
 }
 
 footer {
@@ -93,14 +92,6 @@ https://www.w3schools.com/cssref/css3_pr_border-radius.asp */
   margin-left: 500px;
   margin-right: 500px;
   border-radius: 10px;
-}
-
-#transition {
-
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  background: black;
 }
 
 /*Gradient code adapted form - https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient*/

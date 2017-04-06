@@ -1,0 +1,192 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-family: 'Raleway', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1 {
+  color: green;
+  font-family: cursive;
+  font-weight: 1000;
+  font-size: 45px;
+}
+
+h3 {
+  display: inline;
+}
+
+h1 {
+  display: inline;
+}
+
+.logo {
+  color: green;
+  font-size: 40px;
+  font-family: cursive;
+  padding: 0;
+  margin: 0;
+}
+
+.cover {
+  background-image: url(images/coffee.jpg);
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  background: black;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  /*margin-top: 12px;*/
+}
+
+nav ul a {
+  display: block;
+  /*padding: 1em;*/
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+}
+
+nav ul a:hover {
+  background-color: green;
+}
+
+.flex-container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-container2 {
+  background: linear-gradient(to top, black, rgba(0,0,0,0));
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: white;
+  margin-top: 22em;
+}
+
+.footer {
+  background: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+footer ul a {
+  display: block;
+  padding: 1em;
+}
+
+footer ul a:hover {
+  background-color: green;
+}
+
+footer div p {
+  padding: 5px;
+}
+
+/* Referenced https://www.w3schools.com/css/css3_buttons.asp for button styling, as well as
+https://www.w3schools.com/cssref/css3_pr_border-radius.asp */
+
+#button {
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 15px;
+  font-size: 15px
+}
+
+#input {
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 15px;
+  font-size: 15px;
+}
+
+/* Used this site to figure out parameters for the box shadow http://www.cssmatic.com/box-shadow */
+
+#form {
+  background-color: rgba(0,0,0,0.70);
+  padding: 30px;
+  margin-left: 500px;
+  margin-right: 500px;
+  border-radius: 10px;
+  color: white;
+}
+
+#motto {
+  color: white;
+}
+
+#product {
+  border: 2px solid white;
+}
+
+@media only screen and (max-width: 640px) {
+
+  .nav {
+    margin-top: 0;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flex-container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flex-container2 {
+    background: linear-gradient(to top, black, rgba(0,0,0,0));
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    margin-top: 2em;
+  }
+
+  .dropdown {
+    display: none;
+  }
+
+}
