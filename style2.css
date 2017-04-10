@@ -1,3 +1,6 @@
+/* Used https://www.w3schools.com/colors/colors_picker.asp for color picking */
+/* Used Google Fonts Raleway for site font */
+
 body {
   margin: 0;
   padding: 0;
@@ -10,7 +13,7 @@ ul {
 }
 
 h1 {
-  color: green;
+  color: rgb(0, 230, 0);
   font-family: cursive;
   font-weight: 1000;
   font-size: 45px;
@@ -26,7 +29,7 @@ h3 {
 }
 
 .logo {
-  color: green;
+  color: rgb(0, 230, 0);
   font-size: 40px;
   font-family: cursive;
   padding: 0;
@@ -68,10 +71,11 @@ nav ul a {
   text-decoration: none;
   font-size: 15px;
   color: white;
+  font-weight: bold;
 }
 
 nav ul a:hover {
-  background-color: green;
+  background-color: rgb(0, 230, 0);
 }
 
 .flex-container1 {
@@ -110,7 +114,7 @@ footer ul a {
 }
 
 footer ul a:hover {
-  background-color: green;
+  background-color: rgb(0, 230, 0);
 }
 
 /* Referenced https://www.w3schools.com/css/css3_buttons.asp for button styling, as well as
@@ -131,7 +135,7 @@ https://www.w3schools.com/cssref/css3_pr_border-radius.asp in order to design in
 }
 
 #button {
-  background-color: green;
+  background-color: rgb(0, 230, 0);
   border: none;
   color: white;
   padding: 15px 32px;
@@ -185,7 +189,7 @@ https://www.w3schools.com/cssref/css3_pr_border-radius.asp in order to design in
   }
 
   #button {
-    background-color: green;
+    background-color: rgb(0, 230, 0);
     border: none;
     color: white;
     padding: 15px 32px;
@@ -277,7 +281,7 @@ https://www.w3schools.com/cssref/css3_pr_border-radius.asp in order to design in
   }
 
   input[type=checkbox]:checked ~ label {
-    background-color: #3D88BD;
+    background-color: rgb(0, 0, 102);
   }
 
   .click-menu ul {
@@ -287,22 +291,21 @@ https://www.w3schools.com/cssref/css3_pr_border-radius.asp in order to design in
     width: 100%;
     margin:0;
     padding:0;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
-
+    /*box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);*/
     display: none;
   }
 
   .click-menu ul li{
     padding: 15px;
-    background-color: #fff;
-    color: #4FB9A7;
+    background-color: white;
+    color: black;
     margin-bottom: 1px;
     cursor: pointer;
   }
 
   .click-menu ul li:hover{
-      background-color: #4FB9A7;
-      color: #FFF;
+      background-color: rgba(0,0,0,0.70);
+      color: white;
   }
 
   .click-menu ul li a{
@@ -317,12 +320,13 @@ https://www.w3schools.com/cssref/css3_pr_border-radius.asp in order to design in
   label {
     box-sizing: border-box;
     width: 100%;
-    background-color: #57A0D4;
-    padding: 15px 20px;
-
+    padding: 14px 18px;
     cursor: pointer;
     text-align: center;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background-color: rgba(0,0,0,0.70);
+    color: white;
+    /*box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);*/
+    border-radius: 15px;
   }
 
 }
