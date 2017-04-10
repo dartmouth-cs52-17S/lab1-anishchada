@@ -21,6 +21,10 @@ h3 {
   display: inline;
 }
 
+.menu {
+  display: none;
+}
+
 .logo {
   color: green;
   font-size: 40px;
@@ -36,6 +40,10 @@ h3 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+#plus {
+  display: none;
 }
 
 /*Code for nav bar adapted form Flexbox guide examples: https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
@@ -141,10 +149,6 @@ https://www.w3schools.com/cssref/css3_pr_border-radius.asp in order to design in
   font-size: 15px;
 }
 
-/*#wrap {
-  flex-basis: 100%;
-}*/
-
 #motto {
   color: white;
 }
@@ -158,7 +162,6 @@ https://www.w3schools.com/cssref/css3_pr_border-radius.asp in order to design in
 
   .nav {
     margin-top: 0;
-    background: black;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -215,5 +218,22 @@ https://www.w3schools.com/cssref/css3_pr_border-radius.asp in order to design in
   .dropdown {
     display: none;
   }
+
+  .menu {
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    border: 1.5px solid white;
+    border-radius: 5px;
+  }
+
+  #plus {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
 
 }
