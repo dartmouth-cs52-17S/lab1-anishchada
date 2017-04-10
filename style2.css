@@ -120,8 +120,8 @@ https://www.w3schools.com/cssref/css3_pr_border-radius.asp in order to design in
 #form {
   background-color: rgba(0,0,0,0.70);
   padding: 25px;
-  margin-left: 500px;
-  margin-right: 500px;
+  /*margin-left: 400px;
+  margin-right: 400px;*/
   border-radius: 15px;
   color: white;
   /*display: flex;
@@ -173,6 +173,13 @@ https://www.w3schools.com/cssref/css3_pr_border-radius.asp in order to design in
     flex-direction: column;
   }
 
+  #form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   #button {
     background-color: green;
     border: none;
@@ -182,7 +189,7 @@ https://www.w3schools.com/cssref/css3_pr_border-radius.asp in order to design in
     display: inline-block;
     border-radius: 15px;
     font-size: 15px;
-    width: 100%;
+    width: 70%;
   }
 
   #input {
@@ -193,8 +200,8 @@ https://www.w3schools.com/cssref/css3_pr_border-radius.asp in order to design in
     display: inline-block;
     border-radius: 15px;
     font-size: 15px;
-    min-width: 200px;
-
+    width: 52%;
+    /*min-width: 200px;*/
   }
 
   .flex-container1 {
@@ -232,8 +239,22 @@ https://www.w3schools.com/cssref/css3_pr_border-radius.asp in order to design in
   #plus {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
+.flex-container2 ul li {
+  display: none;
+  list-style-type: none;
+}
+
+/* got help from Justin Gualtieri for this padding */
+
+#plus li {
+  padding-left: 15px;
+}
+
+div {
+  list-style-type: none;
+}
 
 }
