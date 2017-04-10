@@ -21,7 +21,7 @@ h3 {
   display: inline;
 }
 
-.menu {
+#menu {
   display: none;
 }
 
@@ -158,6 +158,10 @@ https://www.w3schools.com/cssref/css3_pr_border-radius.asp in order to design in
   border-radius: 5px;
 }
 
+.click-menu {
+  display: none;
+}
+
 @media only screen and (max-width: 640px) {
 
   .nav {
@@ -240,21 +244,85 @@ https://www.w3schools.com/cssref/css3_pr_border-radius.asp in order to design in
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-right: 10px;
   }
 
-.flex-container2 ul li {
-  display: none;
-  list-style-type: none;
-}
+  .flex-container2 ul li {
+    display: none;
+    list-style-type: none;
+  }
 
-/* got help from Justin Gualtieri for this padding */
+  /* got help from Justin Gualtieri for this padding and the fa plus spacing */
 
-#plus li {
-  padding-left: 15px;
-}
+  #plus li {
+    padding-left: 15px;
+  }
 
-div {
-  list-style-type: none;
-}
+  div {
+    list-style-type: none;
+  }
+
+  /*
+  CSS checkbox code adapted from http://tutorialzine.com/2015/08/quick-tip-css-only-dropdowns-with-the-checkbox-hack/, Author: Danny Markov
+  Lines 270-326 were based on code from the above ^ link
+  */
+
+  input[type=checkbox] {
+    display: none;
+  }
+
+  .click-menu {
+    position: relative;
+    display: inline-block;
+  }
+
+  input[type=checkbox]:checked ~ label {
+    background-color: #3D88BD;
+  }
+
+  .click-menu ul {
+    position: absolute;
+    list-style: none;
+    text-align: left;
+    width: 100%;
+    margin:0;
+    padding:0;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+
+    display: none;
+  }
+
+  .click-menu ul li{
+    padding: 15px;
+    background-color: #fff;
+    color: #4FB9A7;
+    margin-bottom: 1px;
+    cursor: pointer;
+  }
+
+  .click-menu ul li:hover{
+      background-color: #4FB9A7;
+      color: #FFF;
+  }
+
+  .click-menu ul li a{
+      color: inherit;
+      text-decoration: none;
+  }
+
+  input[type=checkbox]:checked ~ ul {
+      display: block;
+  }
+
+  label {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #57A0D4;
+    padding: 15px 20px;
+
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  }
 
 }
