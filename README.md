@@ -33,3 +33,16 @@ Final product (narrow browser version)
 ![](screenshots/responsive_menu.gif)
 
 Citations (contained inline with code):
+
+https://www.w3schools.com/colors/colors_picker.asp
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+https://www.w3schools.com/css/css3_buttons.asp
+https://www.w3schools.com/cssref/css3_pr_border-radius.asp
+https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient
+http://tutorialzine.com/2015/08/quick-tip-css-only-dropdowns-with-the-checkbox-hack
+https://www.w3schools.com/tags/tag_nav.asp
+https://www.w3schools.com/html/html_form_input_types.asp
+https://www.w3schools.com/css/css_howto.asp
+https://www.w3schools.com/css/css_syntax.asp
+https://www.w3schools.com/html/html_images.asp
+http://fontawesome.io/examples/

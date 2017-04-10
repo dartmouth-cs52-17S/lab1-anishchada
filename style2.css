@@ -1,5 +1,8 @@
-/* Used https://www.w3schools.com/colors/colors_picker.asp for color picking */
-/* Used Google Fonts Raleway for site font */
+/*
+Used https://www.w3schools.com/colors/colors_picker.asp for color picking
+Used Google Fonts Raleway for site font
+Used https://www.w3schools.com/cssref/pr_margin.asp and https://www.w3schools.com/cssref/pr_padding.asp for margin/padding throughout
+*/
 
 body {
   margin: 0;
@@ -11,6 +14,8 @@ body {
 ul {
   list-style-type: none;
 }
+
+/* Referenced https://www.w3schools.com/cssref/pr_class_display.asp */
 
 h1 {
   color: rgb(0, 230, 0);
@@ -49,7 +54,10 @@ h3 {
   display: none;
 }
 
-/*Code for nav bar adapted form Flexbox guide examples: https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
+/*
+Code for nav bar adapted form Flexbox guide examples: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+Used https://www.w3schools.com/css/css_navbar.asp as a resource also
+*/
 
 .nav {
   display: flex;
@@ -84,6 +92,8 @@ nav ul a:hover {
   align-items: center;
 }
 
+/* Gradient code adapted form - https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient */
+
 .flex-container2 {
   background: linear-gradient(to top, black, rgba(0,0,0,0));
   padding: 0;
@@ -93,6 +103,11 @@ nav ul a:hover {
   color: white;
   margin-top: 22em;
 }
+
+/*
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+https://www.w3schools.com/css/css_navbar.asp
+*/
 
 .footer {
   background: black;
@@ -118,8 +133,11 @@ footer ul a:hover {
 }
 
 /* Referenced https://www.w3schools.com/css/css3_buttons.asp for button styling, as well as
-https://www.w3schools.com/cssref/css3_pr_border-radius.asp in order to design input, form and button */
+https://www.w3schools.com/cssref/css3_pr_border-radius.asp in order to design input, form and button
+Utilized https://www.w3schools.com/css/css_form.asp for form and input
+*/
 
+/* Referenced https://www.w3schools.com/css/css_form.asp */
 
 #form {
   background-color: rgba(0,0,0,0.70);
@@ -134,6 +152,8 @@ https://www.w3schools.com/cssref/css3_pr_border-radius.asp in order to design in
   flex-wrap: wrap;*/
 }
 
+/* Button code taken from https://www.w3schools.com/css/css3_buttons.asp */
+
 #button {
   background-color: rgb(0, 230, 0);
   border: none;
@@ -143,6 +163,13 @@ https://www.w3schools.com/cssref/css3_pr_border-radius.asp in order to design in
   border-radius: 15px;
   font-size: 15px;
 }
+
+#button a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Referenced https://www.w3schools.com/css/css_form.asp */
 
 #input {
   border: none;
@@ -168,6 +195,8 @@ https://www.w3schools.com/cssref/css3_pr_border-radius.asp in order to design in
 
 @media only screen and (max-width: 640px) {
 
+  /* Mostly just reoriented flexbox directions here */
+
   .nav {
     margin-top: 0;
     display: flex;
@@ -188,6 +217,8 @@ https://www.w3schools.com/cssref/css3_pr_border-radius.asp in order to design in
     align-items: center;
   }
 
+  /* Button code taken from https://www.w3schools.com/css/css3_buttons.asp */
+
   #button {
     background-color: rgb(0, 230, 0);
     border: none;
@@ -199,6 +230,8 @@ https://www.w3schools.com/cssref/css3_pr_border-radius.asp in order to design in
     font-size: 15px;
     width: 70%;
   }
+
+  /* Referenced https://www.w3schools.com/css/css_form.asp */
 
   #input {
     border: none;
@@ -218,7 +251,7 @@ https://www.w3schools.com/cssref/css3_pr_border-radius.asp in order to design in
     align-items: center;
   }
 
-  /*Gradient code adapted form - https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient*/
+  /* Gradient code adapted form - https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient */
 
   .flex-container2 {
     background: linear-gradient(to top, black, rgba(0,0,0,0));
