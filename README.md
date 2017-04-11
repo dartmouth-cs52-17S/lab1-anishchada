@@ -1,6 +1,6 @@
 # Anish Chadalavada
-## Computer Science 52
-## Lab Assignment 1
+Computer Science 52  
+Lab Assignment 1  
 April 10, 2017
 
 When I first started this lab, I did not take full advantage of the flexbox capabilities, and didn't have a complete understanding of what the flexboxes could be used for and how to set their attributes. Believe it or not, an hour spent playing Flexbox Froggy was immensely helpful on this lab! I realized that I hadn't been using the valuable functionality of flexboxes, so I started from scratch on my CSS even though I was ~80% done. I easily got back to where I was before in an hour of work, and the page was very well structured. The main div (.cover) was a flexbox oriented column-wise and then setting up the layout of the page was very straightforward and painless. I will definitely be using flexboxes whenever I can from here on out.
@@ -34,15 +34,15 @@ Final product (narrow browser version)
 
 Citations (contained inline with code):
 
-https://www.w3schools.com/colors/colors_picker.asp
-https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-https://www.w3schools.com/css/css3_buttons.asp
-https://www.w3schools.com/cssref/css3_pr_border-radius.asp
-https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient
-http://tutorialzine.com/2015/08/quick-tip-css-only-dropdowns-with-the-checkbox-hack
-https://www.w3schools.com/tags/tag_nav.asp
-https://www.w3schools.com/html/html_form_input_types.asp
-https://www.w3schools.com/css/css_howto.asp
-https://www.w3schools.com/css/css_syntax.asp
-https://www.w3schools.com/html/html_images.asp
-http://fontawesome.io/examples/
+https://www.w3schools.com/colors/colors_picker.asp  
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/  
+https://www.w3schools.com/css/css3_buttons.asp  
+https://www.w3schools.com/cssref/css3_pr_border-radius.asp  
+https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient  
+http://tutorialzine.com/2015/08/quick-tip-css-only-dropdowns-with-the-checkbox-hack  
+https://www.w3schools.com/tags/tag_nav.asp  
+https://www.w3schools.com/html/html_form_input_types.asp  
+https://www.w3schools.com/css/css_howto.asp  
+https://www.w3schools.com/css/css_syntax.asp  
+https://www.w3schools.com/html/html_images.asp  
+http://fontawesome.io/examples/  
