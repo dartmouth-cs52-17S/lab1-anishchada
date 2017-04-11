@@ -34,6 +34,8 @@ Final product (narrow browser version)
 
 Citations (contained inline with code):
 
+Discussed generally with Justin Gualtieri
+
 https://www.w3schools.com/colors/colors_picker.asp  
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/  
 https://www.w3schools.com/css/css3_buttons.asp  

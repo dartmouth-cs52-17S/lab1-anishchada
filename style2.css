@@ -2,7 +2,10 @@
 Used https://www.w3schools.com/colors/colors_picker.asp for color picking
 Used Google Fonts Raleway for site font
 Used https://www.w3schools.com/cssref/pr_margin.asp and https://www.w3schools.com/cssref/pr_padding.asp for margin/padding throughout
+Used Flexbox guide https://css-tricks.com/snippets/css/a-guide-to-flexbox/ throughout
 */
+
+/* Main Body Style */
 
 body {
   margin: 0;
@@ -55,8 +58,9 @@ h3 {
 }
 
 /*
-Code for nav bar adapted form Flexbox guide examples: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-Used https://www.w3schools.com/css/css_navbar.asp as a resource also
+Nav Bar Style
+Code for nav bar adapted from Flexbox guide examples: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+and https://www.w3schools.com/css/css_navbar.asp as a resource also
 */
 
 .nav {
@@ -75,16 +79,18 @@ nav ul {
 
 nav ul a {
   display: block;
-  padding: 1em;
   text-decoration: none;
   font-size: 15px;
-  color: white;
   font-weight: bold;
+  color: white;
+  padding: 1em;
 }
 
 nav ul a:hover {
   background-color: rgb(0, 230, 0);
 }
+
+/* Body Style */
 
 .flex-container1 {
   display: flex;
@@ -105,6 +111,7 @@ nav ul a:hover {
 }
 
 /*
+Footer style
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 https://www.w3schools.com/css/css_navbar.asp
 */
@@ -132,7 +139,9 @@ footer ul a:hover {
   background-color: rgb(0, 230, 0);
 }
 
-/* Referenced https://www.w3schools.com/css/css3_buttons.asp for button styling, as well as
+/*
+Signup form, input, button style
+Referenced https://www.w3schools.com/css/css3_buttons.asp for button styling, as well as
 https://www.w3schools.com/cssref/css3_pr_border-radius.asp in order to design input, form and button
 Utilized https://www.w3schools.com/css/css_form.asp for form and input
 */
@@ -192,6 +201,8 @@ Utilized https://www.w3schools.com/css/css_form.asp for form and input
 .click-menu {
   display: none;
 }
+
+/* When Screen shrinks */
 
 @media only screen and (max-width: 640px) {
 
@@ -267,6 +278,8 @@ Utilized https://www.w3schools.com/css/css_form.asp for form and input
     display: none;
   }
 
+  /* Referenced https://www.w3schools.com/css/css_border.asp */
+
   .menu {
     display: block;
     padding: 1em;
@@ -300,8 +313,9 @@ Utilized https://www.w3schools.com/css/css_form.asp for form and input
   }
 
   /*
-  CSS checkbox code adapted from http://tutorialzine.com/2015/08/quick-tip-css-only-dropdowns-with-the-checkbox-hack/, Author: Danny Markov
-  Lines 270-326 were based on code from the above ^ link
+  Checkbox hack dropdown menu
+  CSS checkbox code taken from http://tutorialzine.com/2015/08/quick-tip-css-only-dropdowns-with-the-checkbox-hack/, Author: Danny Markov
+  Lines 319-375 were based on code from the above ^ link
   */
 
   input[type=checkbox] {
