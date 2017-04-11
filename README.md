@@ -26,9 +26,7 @@ Basic CSS and basic flexboxes (Changed name from Sapphire to Emerald and changed
 
 Final product (Full browser width)
 
-![](images/Final1.png)
-
-![](images/Final2.png)
+![](images/Final1.png) ![](images/Final2.png)
 
 Final product (narrow browser version)
 
